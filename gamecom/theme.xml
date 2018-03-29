@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>8cabc8</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>8cabc8</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The Game.com is a handheld game console released by Tiger Electronics in September 1997. It featured many new ideas for handheld consoles and was aimed at an older target audience, having PDA-style features and functions such as a touchscreen and stylus.  The first game.com included two slots for game cartridges and could be connected to a 14.4 kbit/s modem, making it the first handheld to include Internet connectivity.  By the end of it's life, under 300,000 Game.coms were sold.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>8cabc888</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

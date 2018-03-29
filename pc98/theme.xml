@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>cdcdc1</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>cdcdc1</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The PC-9800 series, commonly shortened to PC-98, is a lineup of Japanese 16-bit and 32-bit personal computers manufactured by NEC from 1982 through 2000. The platform established NEC's dominance in the Japanese personal computer market, and by 1999, more than 18 million PC-98 units had been sold.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>cdcdc188</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

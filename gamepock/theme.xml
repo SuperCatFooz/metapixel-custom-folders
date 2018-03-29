@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>af0a00</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>af0a00</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The Epoch Game Pocket Computer is a handheld game console released by Epoch in Japan in 1984.  The Game Pocket Computer used an LCD screen with a 75 × 64 resolution, and could produce graphics equivalent to early Atari 2600 titles.  There were only five games released for the system, not including the internal ROM.  Final sales numbers are hard to come by, but the system is extremely rare, and can easily sell for hundreds of dollars on auction sites like eBay.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>af0a0088</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

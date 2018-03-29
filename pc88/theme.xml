@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>cdcda1</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>cdcda1</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The PC-8800 series, commonly shortened to PC-88, are a brand of Zilog Z80-based home computers released by Nippon Electric Company (NEC) in 1981 in Japan, where it became very popular. Over a dozen different models of the PC-8801 were made.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>cdcda188</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>533070</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>533070</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The Plug It In & Play TV Games are a series of plug-n-play game devices produced by Jakks Pacific. When connected to a television set, the user is able to play a pre-defined selection of video games. Some models are collections of ports of games by companies such as Atari and Namco, while others are collections of original games. Some versions facilitate the addition of games, via proprietary GameKey expansion cards, and/or include wireless features.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>53307088</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

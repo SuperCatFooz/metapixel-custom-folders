@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>22b2b2</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>22b2b2</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The Sega Pico is an educational video game console by Sega. Marketed as "edutainment", the main focus of the Pico was educational video games for children between 3 and 7 years old. The Pico was released in June 1993 in Japan and November 1994 in North America and Europe, later reaching China.  Overall, Sega claims sales of 3.4 million Pico consoles and 11.2 million game cartridges.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>22b2b288</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

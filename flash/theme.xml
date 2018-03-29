@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>881905</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>881905</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>Adobe Flash is freeware software platform designed for various purposes, including viewing multimedia, executing rich Internet applications, and streaming video and audio.  Adobe Flash is scheduled to be discontinued in 2020, due to being obsoleted by other software platforms like HTML5.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>88190588</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

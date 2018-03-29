@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>e9bb1d</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>e9bb1d</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>The Super Cassette Vision is a home video game console made by Epoch Co. and released in Japan on July 17, 1984. A successor to the Cassette Vision, it is a third-generation console that competed with the Nintendo Famicom and Sega SG-1000 in Japan.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>e9bb1d88</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>

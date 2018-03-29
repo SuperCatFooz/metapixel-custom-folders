@@ -1,0 +1,44 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>fc0a16</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>fc0a16</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>Known in development by its codename NX, the Nintendo Switch is the seventh major video game console developed by Nintendo. Nintendo considers the Switch a "hybrid" console; it is designed primarily as a home console, with the main unit inserted onto a docking station to connect to a television. Alternatively, it can be removed from the dock and used similarly to a tablet computer through its LCD touchscreen, or placed in a standalone tabletop mode visible to several players.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+		
+	</view>
+
+		<textlist name="gamelist">
+			<selectorColor>fc0a1688</selectorColor>
+		</textlist>
+	
+</theme>
