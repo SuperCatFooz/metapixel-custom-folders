@@ -1,0 +1,59 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>cb050e</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>cb050e</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>J2ME, also known as Java Mobile, is a computing platform for development and deployment of portable code for embedded and mobile devices.  Developed by Sun Microsystems, J2ME was the successor to PersonalJava.  Over 2.1 billion devices were enabled for J2ME compatiability by 2010.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed, video">
+
+		<textlist name="gamelist">
+			<selectorColor>cb050e88</selectorColor>
+		</textlist>
+
+		<video name="md_video">
+			<maxSize>0.325 0.610</maxSize>
+			<pos>0.812 0.345</pos>
+			<origin>0.5 0.5</origin>
+		</video>
+
+		<image name="md_image">
+			<maxSize>0 0</maxSize>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+		</image>
+
+	</view>
+	
+</theme>>
