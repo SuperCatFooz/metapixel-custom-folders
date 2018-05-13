@@ -5,7 +5,7 @@
 	<view name="system, basic, detailed, video">
 
 		<image name="background">
-			<color>cdcda1</color>
+			<color>bd4cce</color>
 		</image>
 
 		<image name="logo">
@@ -21,7 +21,7 @@
 	<view name="system">
 
 		<image name="background" extra="true">
-			<color>cdcda1</color>
+			<color>bd4cce</color>
 		</image>
 
 		<text name="system_description" extra="true">
@@ -39,7 +39,7 @@
 	<view name="basic, detailed, video">
 
 		<textlist name="gamelist">
-			<selectorColor>cdcda188</selectorColor>
+			<selectorColor>bd4cce88</selectorColor>
 		</textlist>
 
 	</view>
