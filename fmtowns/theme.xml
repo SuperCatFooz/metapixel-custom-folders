@@ -1,0 +1,44 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../metapixel.xml</include>
+
+	<view name="system, basic, detailed, video">
+
+		<image name="background">
+			<color>74cc6f</color>
+		</image>
+
+		<image name="logo">
+			<path>./logo.png</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./console.png</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="background" extra="true">
+			<color>74cc6f</color>
+		</image>
+
+		<text name="system_description" extra="true">
+			<text>FM Towns is a proprietary 32-bit computer system manufactured by Fujitsu in 1989.  The first computer with a standard CD-ROM drive, the FM Towns was one of the most advanced PC platforms released up until then, rivalled only by the Sharp X68000.  Many arcade-perfect ports were released for the system.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot2.jpg</path>
+		</image>
+		
+	</view>
+
+		<textlist name="gamelist">
+			<selectorColor>74cc6f88</selectorColor>
+		</textlist>
+	
+</theme>
